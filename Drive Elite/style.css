@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: crimson;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 30px;
+}
+li , .logo{
+    margin: 30px;
+}
+marquee{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+section{
+    display: flex;
+    margin: 100px;
+    align-items: center;
+}
+.card{
+    margin: 50px;
+}
+#c1{
+    margin-top: -40px;
+}
+#c2{
+    margin-top:-215px ;
+}
+#c3{
+    margin-top: -90px;
+}
+li:hover{
+    color: blue;
+    transition: 1s;
+    cursor: grab;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+}
